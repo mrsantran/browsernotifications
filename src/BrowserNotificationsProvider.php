@@ -13,7 +13,7 @@ class BrowserNotificationsProvider extends ServiceProvider
     {
         // Publish view file
         $this->publishes([
-          __DIR__ . '/views/browsernotifications/browsernotifications.php' => resource_path('browsernotifications/browsernotifications.php'),
+          __DIR__ . '/views/browsernotifications.blade.php' => resource_path('views/browsernotifications/browsernotifications.blade.php'),
           ]);
     }
 

@@ -9,7 +9,7 @@ class BrowserNotificationsController extends BrowserController
 
     public function index()
     {
-        return 'document.addEventListener("DOMContentLoaded", function ()
+        exit('document.addEventListener("DOMContentLoaded", function ()
                 {
                     if (Notification.permission !== "granted")
                     { Notification.requestPermission(); }
@@ -28,7 +28,7 @@ class BrowserNotificationsController extends BrowserController
                         };
                         notification.onclose = function () { console.log("Notification closed"); };
                     }
-                }';
+                }');
     }
 
 }
