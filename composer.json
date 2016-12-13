@@ -1,0 +1,21 @@
+{
+    "name": "santran/browsernotifications",
+    "description": "Integrate Browser Notifications to Laravel 5.2 and above.",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SanTran\\BrowserNotifications\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "San Tran",
+            "email": "santran686@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
