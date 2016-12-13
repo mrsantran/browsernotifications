@@ -11,16 +11,16 @@ class BrowserNotificationsProvider extends ServiceProvider
 
     public function boot()
     {
-        // Publish config files
-        /* $this->publishes([
-          __DIR__ . '/config/mobicard.php' => config_path('mobicard.php'),
-          ]); */
+        // Publish view file
+        $this->publishes([
+          __DIR__ . '/views/browsernotifications/browsernotifications.php' => resource_path('browsernotifications/browsernotifications.php'),
+          ]);
     }
 
     public function register()
     {
         include __DIR__ . '/routes.php';
-        $this->app->make('BrowserNotificationsController');
+        $this->app->make('SanTran\BrowserNotifications\BrowserNotificationsController');
     }
 
 }
