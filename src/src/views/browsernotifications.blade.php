@@ -1,1 +1,0 @@
-<script src="{{{ url("js/browsernotifications.js") }}}"></script>
