@@ -11,10 +11,12 @@ class BrowserNotificationsProvider extends ServiceProvider
 
     public function boot()
     {
-        // Publish view file
         $this->publishes([
           __DIR__ . '/views/browsernotifications.blade.php' => resource_path('views/browsernotifications/browsernotifications.blade.php'),
           ]);
+        $this->publishes([
+            __DIR__ . '/config/browsernotifications.php' => config_path('browsernotifications.php'),
+        ]);
     }
 
     public function register()
