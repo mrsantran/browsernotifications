@@ -13,6 +13,7 @@ class BrowserNotificationsController extends BrowserController
                 {
                     if (Notification.permission !== "granted")
                     { Notification.requestPermission(); }
+                    else { console.log("Notification granted."); }
                 });
                 function showNotification(title, body, url, icon)
                 {
