@@ -2,6 +2,7 @@ Laravel 5 Browser Notifications
 ======================
 
 [![Total Downloads](https://img.shields.io/packagist/dt/santran/browsernotifications.svg)](https://packagist.org/packages/santran/browsernotifications)
+[![Paypal Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](paypal.me/MrSanTran)
 
 ![screen shot 2016-12-14 at 14 07 33](https://cloud.githubusercontent.com/assets/21286108/21172827/d4632862-c206-11e6-9366-ee2a428c6ca5.png)
 
