@@ -36,6 +36,3 @@ $(document).ready(function () {
   showNotification(title, content, url, icon);
 });
 ```
-
-Any Q/A, Please contact to me.
-Email: laptrinhvien2013@gmail.com
